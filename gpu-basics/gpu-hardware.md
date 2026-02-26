@@ -1,6 +1,6 @@
 **Precise Notes — GPU vs Accelerator Card**
 
-1. A **GPU** is the compute chip, while the rectangular device with fans gamers buy is a **graphics (accelerator) card** that contains the GPU.
+1. A **GPU** is the compute chip (die), while the rectangular device with fans gamers buy is a **graphics (accelerator) card** that contains the GPU.
 2. **NVIDIA** mainly designs GPU chips and also sells some complete accelerator cards (Founders Edition), while most retail cards are built by partners.
 3. For neural network training, buy a discrete NVIDIA accelerator card with sufficient VRAM (e.g., **GeForce RTX 4090** for heavy workloads).
 4. The RTX 4090 accelerator card contains the **AD102** GPU chip.
