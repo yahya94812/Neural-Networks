@@ -1,4 +1,4 @@
-## Different types Core Compute Units in nvidia GPUs
+## Different types of Core Compute Units in nvidia GPUs
 1. CUDA Cores (always FP32/INT32 ALUs) (general-purpose)
     * General-purpose parallel math
     * Execute FP32, FP16, and INT32 instructions.
@@ -7,7 +7,7 @@
 
 2. Tensor Cores
     * These are purpose-built for matrix math.
-    * Perform fused matrix multiply-accumulate (MMA)
+    * Perform fused matrix multiply-accumulate (MMA) A x B + c
     * Much higher throughput for: FP16, BF16, TF32, INT8, FP8(newer GPUs)
 
 3. RT Cores (Ray Tracing Cores)
